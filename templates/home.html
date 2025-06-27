@@ -1,16 +1,39 @@
 {{ define "content.html" }}
     <header>
-        <div class="boxed">
-            <h1>Welcome to a my new website</h1>
+        <div class="boxed header-box">
+            <h1>My Blog with Resizes Dash</h1>
+            <p class="subtitle">Thoughts, stories and ideas</p>
         </div>
     </header>
-    <main class="boxed">
-        <p>{{.Message}}</p>
-        <p>This is a template for Go websites.</p>
+    
+    <main>
+        <!-- Story 1 -->
+        <article class="story boxed">
+            <h2>My First Adventure With Dash</h2>
+            <p class="timestamp">Posted on June 17, 2025</p>
+            <div class="story-content">
+                <p>I've decided to use Dash to deploy my new blog with Go.</p>
+                <p>It was easy and simple to do!</p>
+                <img src="/static/multimedia/images/logo.png" alt="Resizes Dash logo" class="story-image">
+                <a href="#" class="read-more">Read more →</a>
+            </div>
+        </article>
+    
+        <!-- Story 2 -->
+        <article class="story boxed">
+            <h2>Getting Pro In Dash</h2>
+            <p class="timestamp">Posted on June 28, 2025</p>
+            <div class="story-content">
+                <p>I've been using Dash a lot lately.</p>
+                <p>I think I'm getting pro soon...</p>
+            </div>
+            <a href="#" class="read-more">Read more →</a>
+        </article>
     </main>
+    
     <footer>
-        <div class="boxed">
-            <p>Powered with Resizes Dash.</p>
+        <div class="boxed footer-box">
+            <p>© 2025 My Blog. Powered with Resizes Dash.</p>
         </div>
     </footer>
 {{ end }}

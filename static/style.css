@@ -7,6 +7,11 @@ body {
     font-family: sans-serif;
     background: #f9f9f9;
     color: #333;
+    font-weight: 300;
+}
+
+h1, h2 {
+    font-weight: lighter;
 }
 
 .container {
@@ -14,25 +19,42 @@ body {
     display: flex;
     flex-direction: column;
     margin: 2rem;
+    align-items: center; 
+}
+
+.story-image {
+    display: block;
+    margin: 1.5rem auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;  
 }
 
 main {
-    margin: 2rem 0;
+    margin: 1rem 0;
     flex: 1;
+    width: 100%;
+    max-width: 600px;
 }
 
-/* Keep existing styles */
 .boxed {
     background: #f9f9f9;
     padding: 1rem;
     text-align: left;
     border-radius: 5px;
     border: 1px solid #666;
-    max-width: 600px;
-    margin: 1rem auto;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
 }
 
 .timestamp {
     font-size: 0.9rem;
     color: #666;
+}
+
+
+header, footer {
+    width: 100%;
+    max-width: 600px;
 }
