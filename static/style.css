@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+main {
+    margin: 2rem 0;
+    flex: 1;
+}
+
+/* Keep existing styles */
+.boxed {
+    background: #f9f9f9;
+    padding: 1rem;
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid #666;
+    max-width: 600px;
+    margin: 1rem auto;
+}
+
+.timestamp {
+    font-size: 0.9rem;
+    color: #666;
+}

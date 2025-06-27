@@ -1,12 +1,16 @@
-{{define "content"}}
+{{ define "content.html" }}
     <header>
-        <h1>Welcome!</h1>
+        <div class="boxed">
+            <h1>Welcome to a my new website</h1>
+        </div>
     </header>
-    <main>
+    <main class="boxed">
         <p>{{.Message}}</p>
-        <p>This is my new website.</p>
+        <p>This is a template for Go websites.</p>
     </main>
     <footer>
-        <p>Deployed with Resizes Dash!</p>
+        <div class="boxed">
+            <p>Powered with Resizes Dash.</p>
+        </div>
     </footer>
-{{end}}
+{{ end }}

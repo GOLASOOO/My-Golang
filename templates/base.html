@@ -1,3 +1,4 @@
+{{ define "base.html" }}
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,7 +9,8 @@
 </head>
 <body>
     <div class="container">
-        {{template "content" .}}
+        {{ template "content.html" . }}
     </div>
 </body>
 </html>
+{{ end }}
